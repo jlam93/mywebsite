@@ -1,4 +1,4 @@
-/*
+
 .flex-container {
     display:flex;
 }
@@ -6,12 +6,16 @@
 .flex-container div{
     background-color:lightblue;
     flex:1;
+    text-align:center;
 }
-*/
 
+#picbackground {
+    background-color: darkred;
+}
 .mtpic {
     width:500px;
     height:auto;
     display:inline;
+    background-color: red;
     
 }
