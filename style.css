@@ -1,0 +1,17 @@
+/*
+.flex-container {
+    display:flex;
+}
+
+.flex-container div{
+    background-color:lightblue;
+    flex:1;
+}
+*/
+
+.mtpic {
+    width:500px;
+    height:auto;
+    display:inline;
+    
+}
