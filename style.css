@@ -1,21 +1,48 @@
+.header {
+    display:flex;
+    justify-content:center;
+    background-color:rgb(179, 165, 165);
+   
+}
 
-.flex-container {
+
+.links {
+    display:flex;
+    padding:0;
+    
+    gap:10px;
+}
+
+.backgroundoverlay{
     display:flex;
 }
 
-.flex-container div{
-    background-color:lightblue;
-    flex:1;
-    text-align:center;
+.picbackground {
+    display:flex;
+    background-color: lightblue;
+    
+    
 }
-
-#picbackground {
-    background-color: darkred;
-}
-.mtpic {
+.mtpic{
     width:500px;
     height:auto;
-    display:inline;
-    background-color: red;
-    
+    border:3px solid green;
+   
+}
+
+
+body {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    /*removes bullet points*/
+    list-style-type:none;
+}
+
+a {
+    /*remove line underneath */
+    text-decoration:none;
+    color:purple;
 }
