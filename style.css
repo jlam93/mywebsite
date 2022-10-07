@@ -1,17 +1,4 @@
-.footer {
-    display:flex;
-    justify-content:center;
-    background:linear-gradient(110deg, rgb(18, 17, 17) 50%, rgb(203, 23, 23));
-    
-   
-}
 
-
-.links {
-    display:flex;
-    padding:0;
-    gap:50px;
-}
 
 .background-img{
     background-image:url("background.jpg");
@@ -27,9 +14,19 @@
     align-items:center;
 }
 
+/*footer */
+.footer {
+    display:flex;
+    justify-content:center;
+    background:linear-gradient(110deg, rgb(18, 17, 17) 50%, rgb(203, 23, 23));
+}
 
-
-
+.links {
+    display:flex;
+    padding:0;
+    gap:50px;
+}
+/*footer ends here*/
 
 /* elements */
 
